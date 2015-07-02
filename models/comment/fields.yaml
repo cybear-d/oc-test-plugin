@@ -1,0 +1,11 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    comment:
+        label: Comment
+    bad_comment:
+        label: is Bad Comment?
+        type: switch
+        comment: this is bad comment yeayyy.

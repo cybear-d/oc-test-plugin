@@ -1,0 +1,16 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    post_id:
+        label: post id
+        searchable: true
+    comment:
+        label: Comment
+        searchable: true
+    bad_comment:
+        label: is Bad Comment?

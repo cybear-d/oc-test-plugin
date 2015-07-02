@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Post
+
+# Model Form Field configuration
+form: $/cybeard/testplugin/models/post/fields.yaml
+
+# Model Class name
+modelClass: Cybeard\Testplugin\Models\Post
+
+# Default redirect location
+defaultRedirect: cybeard/testplugin/posts
+
+# Create page
+create:
+    title: Create Post
+    redirect: cybeard/testplugin/posts/update/:id
+    redirectClose: cybeard/testplugin/posts
+
+# Update page
+update:
+    title: Edit Post
+    redirect: cybeard/testplugin/posts
+    redirectClose: cybeard/testplugin/posts
+
+# Preview page
+preview:
+    title: Preview Post

@@ -1,0 +1,5 @@
+1.0.1:
+    - First version of testplugin
+    - create_posts_table.php
+    - create_comments_table.php
+    - seed_table.php

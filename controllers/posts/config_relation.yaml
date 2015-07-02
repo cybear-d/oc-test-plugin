@@ -1,0 +1,12 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+comments:
+    label: Comments
+    view:
+        list: $/cybeard/testplugin/models/comment/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/cybeard/testplugin/models/comment/fields.yaml
+        recordsPerPage: 10
